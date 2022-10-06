@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+           
+        }
+        
+        body {
+            background-color: rgb(32, 32, 39);
+            font-family: Verdana;
+            color: #aaaaaa;
+            margin:0;
+        }
+        
+        .menu {
+            float: left;
+           
+            text-align: left;
+        }
+        
+        .menu a {
+            background-color: #3c5085;
+            padding: 12px;
+            margin-top: 5px;
+            display: block;
+            width: 100%;
+            color: white;
+        }
+
+        .menu a:visited, .menu a:link
+        {
+            text-decoration: none;
+        }
+        
+        .inhoud {
+               
+            padding-left: 20px;
+            padding-right:20px;
+            float:left;
+        }
+
+        .about {
+            background-color: rgb(177, 96, 96);
+            float: left;
+            padding-left: 10px;
+            margin-top: 10px;
+            min-height: 750px;
+           
+        }
+
+        .about ul li{
+            list-style-type: square;
+        }
+
+        .about ul
+        {
+            margin-block-start: 0;
+        }
+        
+        .header {
+            background-color: rgb(32, 32, 39);
+            text-align: center;
+           
+        }
+
+        
+        .header img {
+            width: 100%;
+            height:auto;
+        }
+        
+        .footer {
+            position: fixed;
+            bottom: 0px;
+            background-color: #e5e5e5;
+            text-align: center;
+            height:35px;
+            padding-top: 5px;
+           
+            width: 100%;
+            clear: both;
+        }
+       
+
+        @media only screen and (max-width: 800px) {
+                /*  mobile  */
+            .menu,
+            .inhoud,
+            .right {
+                width: 100%;
+            }
+            .about {
+                display:none;
+            }
+
+            .header img
+            {
+                    display:none;
+            }
+        }
+        
+       
+        @media only screen and (min-width:801px) 
+        {
+            .inhoud{
+                width: 60%;  
+                float: left;
+            }
+            
+            .menu{
+                
+                width:20%;
+                float: left;
+            }
+
+            .about{
+            
+                width:20%;
+                float:left;
+            }
+
+
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <img src="HeaderKortrijk.jpg">
+    </div>
+
+    <div>
+        <div class="menu">
+            <a href="#">ZIEN EN DOEN</a>
+            <a href="#">VERBORGEN PARELS</a>
+            <a href="#">GENIETEN</a>
+            <a href="#">OVERNACHTEN</a>
+            <a href="#">BEREIKEN</a>
+            <a href="#">CONTACTPAGINA</a>
+
+
+        </div>
+
+        <div class="inhoud">
+            <h1>Kortrijk</h1>
+            <h2>Groeningestad of Guldensporenstad</h2>
+
+            <p>Kortrijk is een centrumstad in het zuiden van de Belgische provincie West-Vlaanderen en is de hoofdplaats van het gelijknamige bestuurlijke en gerechtelijke arrondissement. 
+            De rivier de Leie stroomt dwars door de historische stad.</p> 
+            
+            <p>De stad was in de 19e en 20e eeuw een centrum van de vlasnijverheid. Vandaag is Kortrijk bekend vanwege zijn textielindustrie, als inkoopstad en zijn centrumfunctie op het vlak van tewerkstelling, 
+             dienstverlening en onderwijs. De stad heeft diverse scholen, hogescholen en een universiteit.
+             </p>
+                
+            <h3>Inwoners</h3>
+            <p>Kortrijk telt bijna 78.000 inwoners (2022), waarmee het na Brugge de grootste stad van de provincie West-Vlaanderen is. 
+            Een inwoner van Kortrijk wordt een Kortrijkzaan/Kortrijkzane of soms Kortrijkenaar genoemd.
+                    
+            <h3>Waar?</h3>
+            Kortrijk ligt 25 km ten noordoosten van de Franse stad Rijsel, waarmee het een transnationaal Eurodistrict vormt: de Franse-Belgische Eurometropool Rijsel-Kortrijk-Doornik 
+            met ongeveer 2.100.000 inwoners.
+            </p>
+                
+            <h3>Historiek</h3>
+            <p>Kortrijk ontstond uit een Romeinse woonkern op de kruising van de Leie en twee Romeinse heirbanen. In de middeleeuwen groeide Kortrijk onder impuls van een bloeiende vlas- en lakennijverheid 
+            uit tot een van de welvarendste steden van Vlaanderen. De stad staat bekend als de "Groeningestad" of <b>"Guldensporenstad" </b>door de <b>Guldensporenslag, die op 11 juli 1302 </b>plaatsvond op de Groeningekouter 
+            te Kortrijk. In de stad werd het Verdrag van Kortrijk (1820) ondertekend dat de grens vastlegde tussen Frankrijk en het huidige België.</p>                
+                
+        </div>
+
+        <div class="about">
+            <h3>Parels</h3>
+
+                <ul>
+                    <li>Broeltorens en leieboorden</li>
+                    <li>Grote markt met belfort en stadhuis</li>
+                    <li>Begijnhof</li>
+                    <li>Texure museum</li>
+                    <li>Buda-eiland</li>
+                    <li>Sint-Maartenskerk</li>
+                </ul>
+        </div>
+    </div>
+
+    <div class="footer">&copy; Jouw naam - Kortrijk</div>
+
+</body>
+
+</html>
